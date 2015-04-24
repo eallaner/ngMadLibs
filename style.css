@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*Specific css rules*/
+body{
+	background-color:#999;
+	margin-top:1em;
+	margin-bottom:1em;
+
+}
+
+body h1, p, input {
+	font-family: 'Patrick Hand', cursive;
+}
+
+.main h1{
+	font-size: 4em;
+	text-align:center;
+	color:#000;
+}
+
+.main{
+	border-color:#000;
+	border-style:solid;
+	border-width:0.7em;
+	background-color:#FFF;
+}
+
+header{
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.img-responsive{
+	margin: 0 auto;
+
+}
+
+.words{
+   border-top-color:#000;
+   border-top-style:solid;
+   border-top-width:0.4em;
+   border-bottom-color:#000;
+   border-bottom-style:solid;
+   border-bottom-width:0.4em;
+}
+
+.words p{
+	font-size: 2em;
+	padding: 2em;
+}
+
+.words input{
+	width: 90%;
+	text-align:center;
+	font-size:1.4em;
+	background-color:rgba(204,0,0,0.4);
+	color:#000;
+	border: 0.2em inset #FFA5A5; 
+	-webkit-border-radius: 2em; 
+    -moz-border-radius: 2em; 
+    border-radius: 2em; 
+}
+
+.words input:focus{
+	background-color:rgba(153,51,0,0.2);
+	border-color:rgba(204,51,0,0.6);
+    box-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.1) inset, 0 0 0.5em rgba(153,0,0,0.5);
+    outline: 0 none;
+}
+
+
+article p{
+	line-height:1.5em;
+	font-size:2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+article p .fill{
+	text-decoration:underline;
+    text-align:center;
+}
+
+@media screen and (max-width: 480px) {
+    .main h1{
+	font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+		
+	article p{
+	font-size:1.4em;
+   }
+}
