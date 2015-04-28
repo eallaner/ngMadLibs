@@ -59,7 +59,7 @@ body{
 
 }
 
-body h1, p, input {
+body h1, p, input, .errMessage{
 	font-family: 'Patrick Hand', cursive;
 }
 
@@ -92,7 +92,6 @@ header{
    border-top-width:0.4em;
    border-bottom-color:#000;
    border-bottom-style:solid;
-   border-bottom-width:0.4em;
 }
 
 .words p{
@@ -127,6 +126,50 @@ header{
     outline: 0 none;
 }
 
+.words hr{
+	width: 90%;
+	height: 0.3em;
+	border-color:rgba(153,0,0,0.5);
+}
+
+.words #submit{
+	width: 40%;
+	margin-left: 55%;
+	border: 0.2em outset #FFA5A5;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	background-color:rgba(255,51,0,0.6);
+	border: 0.2em outset rgba(255,51,0,0.5);
+	box-shadow: 0.1em 0.1em 0.15em rgba(102,0,0,0.3);
+}
+
+.words #submit:hover{
+    background-color:rgba(255,51,0,0.2);
+	color:rgba(102,51,51,0.5);
+	border: 0.2em outset rgba(255,153,0,0.3);
+}
+
+@media screen and (max-width: 560px) {
+    .words #submit{
+	     width: 60%;
+	     margin-left: 35%;
+	}	
+}
+
+@media screen and (min-width: 960px) {
+    .words #submit{
+	     width: 30%;
+	     margin-left: 65%;
+	}
+}
+
+
+.errMessage{
+	font-size: 1em;
+	text-align:center;
+	color:rgba(204,0,0,1);
+	
+}
 
 article p{
 	line-height:1.5em;
@@ -152,3 +195,34 @@ article p .fill{
 	font-size:1.4em;
    }
 }
+
+.paragraph #reset{
+	width: 20%;
+	margin-left: 70%;
+	border: 0.2em outset #FFA5A5;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	background-color:rgba(255,51,0,0.6);
+	border: 0.2em outset rgba(255,51,0,0.5);
+	box-shadow: 0.1em 0.1em 0.15em rgba(102,0,0,0.3);
+	text-align:center;
+	font-size:1.4em;
+	color:#000;
+	-webkit-border-radius: 2em; 
+    -moz-border-radius: 2em; 
+    border-radius: 2em; 
+}
+
+.paragraph #reset:hover{
+    background-color:rgba(255,51,0,0.2);
+	color:rgba(102,51,51,0.5);
+	border: 0.2em outset rgba(255,153,0,0.3);
+}
+
+@media screen and (max-width: 660px) {
+	.paragraph #reset{
+	     width: 40%;
+	     margin-left: 50%;
+	}
+}
+
