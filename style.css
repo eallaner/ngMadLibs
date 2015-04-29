@@ -111,7 +111,7 @@ header{
 	width: 90%;
 	text-align:center;
 	font-size:1.4em;
-	background-color:rgba(204,0,0,0.4);
+	background-color:rgba(255,204,153,1);
 	color:#000;
 	border: 0.2em inset #FFA5A5; 
 	-webkit-border-radius: 2em; 
@@ -135,10 +135,9 @@ header{
 .words #submit{
 	width: 40%;
 	margin-left: 55%;
-	border: 0.2em outset #FFA5A5;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
-	background-color:rgba(255,51,0,0.6);
+	background-color:rgba(204,0,0,0.7);
 	border: 0.2em outset rgba(255,51,0,0.5);
 	box-shadow: 0.1em 0.1em 0.15em rgba(102,0,0,0.3);
 }
@@ -202,7 +201,7 @@ article p .fill{
 	border: 0.2em outset #FFA5A5;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
-	background-color:rgba(255,51,0,0.6);
+	background-color:rgba(204,0,0,0.7);
 	border: 0.2em outset rgba(255,51,0,0.5);
 	box-shadow: 0.1em 0.1em 0.15em rgba(102,0,0,0.3);
 	text-align:center;
