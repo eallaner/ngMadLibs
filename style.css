@@ -53,7 +53,7 @@ table {
 
 /*Specific css rules*/
 body{
-	background-color:#999;
+	background: url(dot.jpg);
 	margin-top:1em;
 	margin-bottom:1em;
 
@@ -73,7 +73,7 @@ body h1, p, input, .errMessage{
 	border-color:#000;
 	border-style:solid;
 	border-width:0.7em;
-	background-color:#FFF;
+	background-color:rgba(255,255,255,0.8);
 }
 
 header{
