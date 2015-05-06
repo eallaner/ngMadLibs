@@ -225,3 +225,22 @@ article p .fill{
 	}
 }
 
+
+/* Animation add to the view change*/
+form.ng-hide-remove{
+    transition:0.5s linear all;
+    opacity:0;
+}
+form.ng-hide-remove	.ng-hide-remove-active{
+    opacity:1;
+}
+form.ng-hide-add{
+    transition:0.5s ease-in all;
+    opacity:1;
+}
+
+form.ng-hide-add.ng-hide-add-active{
+    opacity:0;    
+}
+
+

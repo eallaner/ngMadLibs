@@ -1,5 +1,5 @@
 // JavaScript Document
-angular.module('myApp',['ngMessages'])
+angular.module('myApp',['ngMessages', 'ngAnimate'])
   .controller('myCtrl', ['$scope', function($scope) {
        $scope.sexes = ['Female', 'Male'];
        $scope.selection = $scope.sexes[0];
